@@ -1,19 +1,20 @@
 // Q4. Read three integers and print the largest number.
 #include <iostream>
 using namespace std;
-int main() {
+int main()
+{
     int a, b, c;
-    cout<<"Enter a b c values..."<<endl;
+    cout << "Enter a b c values...." << endl;
     cin >> a >> b >> c;
-    if (a >= b && a >= c) 
+    if (a >= b && a >= c)
     {
         cout << a;
     }
-    else if(b >= a && b >= c) 
+    else if (b >= a && b >= c)
     {
         cout << b;
     }
-    else 
+    else
     {
         cout << c;
     }
