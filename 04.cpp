@@ -1,22 +1,18 @@
-// Q4. Read three integers and print the largest number.
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main()
-{
-    int a, b, c;
-    cout << "Enter a b c values...." << endl;
-    cin >> a >> b >> c;
-    if (a >= b && a >= c)
+int main (){
+    int a,b,c;
+    cout<<"enter three numbers: ";
+    cin>>a>>b>>c;
+    if(a>b && a>c)
     {
-        cout << a;
+        cout<<"the number "<<a<<" is the largest one"<<endl;
     }
-    else if (b >= a && b >= c)
-    {
-        cout << b;
+    else if(b>a && b>c){
+        cout<<"the number "<<b<<" is the largest one"<<endl;    
     }
-    else
-    {
-        cout << c;
+    else{
+        cout<<"the number "<<c<<" is the largest one"<<endl;
     }
     return 0;
 }
